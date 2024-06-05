@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.product-intro, .product-features, .product-pricing, .call-to-action {
+    margin: 2rem 0;
+}
+
+.product-intro h1, .product-features h2, .product-pricing h2, .call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product-features .feature, .product-pricing .pricing-plan {
+    margin: 1rem 0;
+}
+
+.product-features .feature img, .product-pricing .pricing-plan img {
+    width: 50px;
+    height: 50px;
+}
+
+.product-features .feature h3, .product-pricing .pricing-plan h3 {
+    font-size: 1.5rem;
+}
+
+.product-pricing .pricing-plan {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.product-pricing .pricing-plan ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action .btn {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.call-to-action .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links, .social-media, .contact-info {
+    margin-bottom: 1rem;
+}
+
+.footer-links a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}

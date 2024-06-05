@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a, .cta-button {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('1920.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero .cta-button {
+    margin-top: 1rem;
+}
+
+.features, .testimonials, .industries {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.features .feature, .industries .industry {
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links, .social-media, .contact-info {
+    margin-bottom: 1rem;
+}
